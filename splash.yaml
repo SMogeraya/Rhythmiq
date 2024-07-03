@@ -1,0 +1,540 @@
+flutter_native_splash:
+  color: "#FFFFFF"
+  color_dark: "#272727"
+  image: assets/logos/darkmode.png
+  image_dark: assets/logos/darkmode.png
+
+  android_12:
+    color: "#FFFFFF"
+    color_dark: "#272727"
+    image: assets/logos/darkmode.png
+    image_dark: assets/logos/darkmode.png
+
+    web: false
+#  Could not resolve all files for configuration ':flutter_native_splash:classpath'.
+#  > Could not download sdk-common-30.1.2.jar (com.android.tools:sdk-common:30.1.2)
+#  > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/sdk-common/30.1.2/sdk-common-30.1.2.jar'.
+#  > Read timed out
+#  > Could not download bundletool-1.8.0.jar (com.android.tools.build:bundletool:1.8.0)
+#  > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/build/bundletool/1.8.0/bundletool-1.8.0.jar'.
+#  > Premature end of Content-Length delimited message body (expected: 9,576,520; received: 4,456,416)
+#  > Failed to notify project evaluation listener.
+#  2
+#  > Could not get unknown property 'android' for project ':flutter_native_splash' of type org.gradle.api.Project.
+#  * What went wrong:
+#  A problem occurred configuring project ':flutter_native_splash'.
+#  > Could not resolve all files for configuration ':flutter_native_splash:classpath'.
+#  > Could not download gradle-7.1.2.jar (com.android.tools.build:gradle:7.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle/7.1.2/gradle-7.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle/7.1.2/gradle-7.1.2.jar'.
+#           > dl.google.com
+#  > Could not download builder-7.1.2.jar (com.android.tools.build:builder:7.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/build/builder/7.1.2/builder-7.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/build/builder/7.1.2/builder-7.1.2.jar'.
+#           > dl.google.com
+#  > Could not download sdk-common-30.1.2.jar (com.android.tools:sdk-common:30.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/sdk-common/30.1.2/sdk-common-30.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/sdk-common/30.1.2/sdk-common-30.1.2.jar'.
+#           > dl.google.com
+#  > Could not download aaptcompiler-7.1.2.jar (com.android.tools.build:aaptcompiler:7.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/build/aaptcompiler/7.1.2/aaptcompiler-7.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/build/aaptcompiler/7.1.2/aaptcompiler-7.1.2.jar'.
+#           > dl.google.com
+#  > Could not download bundletool-1.8.0.jar (com.android.tools.build:bundletool:1.8.0)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/build/bundletool/1.8.0/bundletool-1.8.0.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/build/bundletool/1.8.0/bundletool-1.8.0.jar'.
+#           > No such host is known (dl.google.com)
+#  > Could not download shared-30.1.2.jar (com.android.tools.analytics-library:shared:30.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/shared/30.1.2/shared-30.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/shared/30.1.2/shared-30.1.2.jar'.
+#           > dl.google.com
+#  > Could not download databinding-compiler-common-7.1.2.jar (androidx.databinding:databinding-compiler-common:7.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-compiler-common/7.1.2/databinding-compiler-common-7.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-compiler-common/7.1.2/databinding-compiler-common-7.1.2.jar'.
+#           > dl.google.com
+#  > Could not download databinding-common-7.1.2.jar (androidx.databinding:databinding-common:7.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-common/7.1.2/databinding-common-7.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-common/7.1.2/databinding-common-7.1.2.jar'.
+#           > dl.google.com
+#  > Could not download baseLibrary-7.1.2.jar (com.android.databinding:baseLibrary:7.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/databinding/baseLibrary/7.1.2/baseLibrary-7.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/databinding/baseLibrary/7.1.2/baseLibrary-7.1.2.jar'.
+#           > dl.google.com
+#  > Could not download layoutlib-api-30.1.2.jar (com.android.tools.layoutlib:layoutlib-api:30.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/layoutlib/layoutlib-api/30.1.2/layoutlib-api-30.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/layoutlib/layoutlib-api/30.1.2/layoutlib-api-30.1.2.jar'.
+#           > dl.google.com
+#  > Could not download android-device-provider-ddmlib-proto-30.1.2.jar (com.android.tools.utp:android-device-provider-ddmlib-proto:30.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-device-provider-ddmlib-proto/30.1.2/android-device-provider-ddmlib-proto-30.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-device-provider-ddmlib-proto/30.1.2/android-device-provider-ddmlib-proto-30.1.2.jar'.
+#           > dl.google.com
+#  > Could not download android-device-provider-gradle-proto-30.1.2.jar (com.android.tools.utp:android-device-provider-gradle-proto:30.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-device-provider-gradle-proto/30.1.2/android-device-provider-gradle-proto-30.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-device-provider-gradle-proto/30.1.2/android-device-provider-gradle-proto-30.1.2.jar'.
+#           > dl.google.com
+#  > Could not download android-test-plugin-host-additional-test-output-proto-30.1.2.jar (com.android.tools.utp:android-test-plugin-host-additional-test-output-proto:30.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-test-plugin-host-additional-test-output-proto/30.1.2/android-test-plugin-host-additional-test-output-proto-30.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-test-plugin-host-additional-test-output-proto/30.1.2/android-test-plugin-host-additional-test-output-proto-30.1.2.jar'.
+#           > dl.google.com
+#  > Could not download android-test-plugin-host-coverage-proto-30.1.2.jar (com.android.tools.utp:android-test-plugin-host-coverage-proto:30.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-test-plugin-host-coverage-proto/30.1.2/android-test-plugin-host-coverage-proto-30.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-test-plugin-host-coverage-proto/30.1.2/android-test-plugin-host-coverage-proto-30.1.2.jar'.
+#           > dl.google.com
+#  > Could not download android-test-plugin-host-retention-proto-30.1.2.jar (com.android.tools.utp:android-test-plugin-host-retention-proto:30.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-test-plugin-host-retention-proto/30.1.2/android-test-plugin-host-retention-proto-30.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-test-plugin-host-retention-proto/30.1.2/android-test-plugin-host-retention-proto-30.1.2.jar'.
+#           > dl.google.com
+#  > Could not download android-test-plugin-result-listener-gradle-proto-30.1.2.jar (com.android.tools.utp:android-test-plugin-result-listener-gradle-proto:30.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-test-plugin-result-listener-gradle-proto/30.1.2/android-test-plugin-result-listener-gradle-proto-30.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-test-plugin-result-listener-gradle-proto/30.1.2/android-test-plugin-result-listener-gradle-proto-30.1.2.jar'.
+#           > dl.google.com
+#  > Could not download dokka-core-1.4.32.jar (org.jetbrains.dokka:dokka-core:1.4.32)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/org/jetbrains/dokka/dokka-core/1.4.32/dokka-core-1.4.32.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/org/jetbrains/dokka/dokka-core/1.4.32/dokka-core-1.4.32.jar'.
+#           > No such host is known (repo.maven.apache.org)
+#  > Could not download builder-model-7.1.2.jar (com.android.tools.build:builder-model:7.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/build/builder-model/7.1.2/builder-model-7.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/build/builder-model/7.1.2/builder-model-7.1.2.jar'.
+#           > dl.google.com
+#  > Could not download dvlib-30.1.2.jar (com.android.tools:dvlib:30.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/dvlib/30.1.2/dvlib-30.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/dvlib/30.1.2/dvlib-30.1.2.jar'.
+#           > dl.google.com
+#  > Could not download common-30.1.2.jar (com.android.tools:common:30.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/common/30.1.2/common-30.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/common/30.1.2/common-30.1.2.jar'.
+#           > dl.google.com
+#  > Could not download kotlin-stdlib-jdk8-1.4.32.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.32)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.4.32/kotlin-stdlib-jdk8-1.4.32.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.4.32/kotlin-stdlib-jdk8-1.4.32.jar'.
+#           > repo.maven.apache.org
+#  > Could not download jetifier-processor-1.0.0-beta09.jar (com.android.tools.build.jetifier:jetifier-processor:1.0.0-beta09)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/build/jetifier/jetifier-processor/1.0.0-beta09/jetifier-processor-1.0.0-beta09.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/build/jetifier/jetifier-processor/1.0.0-beta09/jetifier-processor-1.0.0-beta09.jar'.
+#           > dl.google.com
+#  > Could not download apkzlib-7.1.2.jar (com.android.tools.build:apkzlib:7.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/build/apkzlib/7.1.2/apkzlib-7.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/build/apkzlib/7.1.2/apkzlib-7.1.2.jar'.
+#           > dl.google.com
+#  > Could not download bcpkix-jdk15on-1.56.jar (org.bouncycastle:bcpkix-jdk15on:1.56)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.56/bcpkix-jdk15on-1.56.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.56/bcpkix-jdk15on-1.56.jar'.
+#           > repo.maven.apache.org
+#  > Could not download jetifier-core-1.0.0-beta09.jar (com.android.tools.build.jetifier:jetifier-core:1.0.0-beta09)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/build/jetifier/jetifier-core/1.0.0-beta09/jetifier-core-1.0.0-beta09.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/build/jetifier/jetifier-core/1.0.0-beta09/jetifier-core-1.0.0-beta09.jar'.
+#           > dl.google.com
+#  > Could not download protobuf-java-util-3.10.0.jar (com.google.protobuf:protobuf-java-util:3.10.0)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java-util/3.10.0/protobuf-java-util-3.10.0.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java-util/3.10.0/protobuf-java-util-3.10.0.jar'.
+#           > repo.maven.apache.org
+#  > Could not download grpc-protobuf-1.21.1.jar (io.grpc:grpc-protobuf:1.21.1)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf/1.21.1/grpc-protobuf-1.21.1.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf/1.21.1/grpc-protobuf-1.21.1.jar'.
+#           > repo.maven.apache.org
+#  > Could not download protos-30.1.2.jar (com.android.tools.analytics-library:protos:30.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/protos/30.1.2/protos-30.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/protos/30.1.2/protos-30.1.2.jar'.
+#           > dl.google.com
+#  > Could not download protobuf-java-3.10.0.jar (com.google.protobuf:protobuf-java:3.10.0)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.10.0/protobuf-java-3.10.0.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.10.0/protobuf-java-3.10.0.jar'.
+#           > repo.maven.apache.org
+#  > Could not download grpc-netty-1.21.1.jar (io.grpc:grpc-netty:1.21.1)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/io/grpc/grpc-netty/1.21.1/grpc-netty-1.21.1.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/io/grpc/grpc-netty/1.21.1/grpc-netty-1.21.1.jar'.
+#           > repo.maven.apache.org
+#  > Could not download grpc-core-1.21.1.jar (io.grpc:grpc-core:1.21.1)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.21.1/grpc-core-1.21.1.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.21.1/grpc-core-1.21.1.jar'.
+#           > repo.maven.apache.org
+#  > Could not download grpc-stub-1.21.1.jar (io.grpc:grpc-stub:1.21.1)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.21.1/grpc-stub-1.21.1.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.21.1/grpc-stub-1.21.1.jar'.
+#           > repo.maven.apache.org
+#  > Could not download bcprov-jdk15on-1.56.jar (org.bouncycastle:bcprov-jdk15on:1.56)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.56/bcprov-jdk15on-1.56.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.56/bcprov-jdk15on-1.56.jar'.
+#           > repo.maven.apache.org
+#  > Could not download grpc-protobuf-lite-1.21.1.jar (io.grpc:grpc-protobuf-lite:1.21.1)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.21.1/grpc-protobuf-lite-1.21.1.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.21.1/grpc-protobuf-lite-1.21.1.jar'.
+#           > repo.maven.apache.org
+#  > Could not download grpc-api-1.21.1.jar (io.grpc:grpc-api:1.21.1)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.21.1/grpc-api-1.21.1.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.21.1/grpc-api-1.21.1.jar'.
+#           > repo.maven.apache.org
+#  > Could not download jackson-module-kotlin-2.11.1.jar (com.fasterxml.jackson.module:jackson-module-kotlin:2.11.1)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-kotlin/2.11.1/jackson-module-kotlin-2.11.1.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-kotlin/2.11.1/jackson-module-kotlin-2.11.1.jar'.
+#           > repo.maven.apache.org
+#  > Could not download kotlin-reflect-1.4.32.jar (org.jetbrains.kotlin:kotlin-reflect:1.4.32)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.4.32/kotlin-reflect-1.4.32.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.4.32/kotlin-reflect-1.4.32.jar'.
+#           > repo.maven.apache.org
+#  > Could not download httpcore-4.4.10.jar (org.apache.httpcomponents:httpcore:4.4.10)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar'.
+#           > repo.maven.apache.org
+#  > Could not download signflinger-7.1.2.jar (com.android:signflinger:7.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/signflinger/7.1.2/signflinger-7.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/signflinger/7.1.2/signflinger-7.1.2.jar'.
+#           > dl.google.com
+#  > Could not download zipflinger-7.1.2.jar (com.android:zipflinger:7.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/zipflinger/7.1.2/zipflinger-7.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/zipflinger/7.1.2/zipflinger-7.1.2.jar'.
+#           > dl.google.com
+#  > Could not download annotations-30.1.2.jar (com.android.tools:annotations:30.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/annotations/30.1.2/annotations-30.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/annotations/30.1.2/annotations-30.1.2.jar'.
+#           > dl.google.com
+#  > Could not download antlr4-4.5.3.jar (org.antlr:antlr4:4.5.3)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/org/antlr/antlr4/4.5.3/antlr4-4.5.3.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/org/antlr/antlr4/4.5.3/antlr4-4.5.3.jar'.
+#           > repo.maven.apache.org
+#  > Could not download kotlin-stdlib-jdk7-1.4.32.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.32)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.4.32/kotlin-stdlib-jdk7-1.4.32.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.4.32/kotlin-stdlib-jdk7-1.4.32.jar'.
+#           > repo.maven.apache.org
+#  > Could not download kotlinx-coroutines-core-jvm-1.4.1.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.4.1)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.4.1/kotlinx-coroutines-core-jvm-1.4.1.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.4.1/kotlinx-coroutines-core-jvm-1.4.1.jar'.
+#           > repo.maven.apache.org
+#  > Could not download markdown-jvm-0.2.1.jar (org.jetbrains:markdown-jvm:0.2.1)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/org/jetbrains/markdown-jvm/0.2.1/markdown-jvm-0.2.1.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/org/jetbrains/markdown-jvm/0.2.1/markdown-jvm-0.2.1.jar'.
+#           > repo.maven.apache.org
+#  > Could not download kotlin-stdlib-1.4.32.jar (org.jetbrains.kotlin:kotlin-stdlib:1.4.32)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.4.32/kotlin-stdlib-1.4.32.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.4.32/kotlin-stdlib-1.4.32.jar'.
+#           > repo.maven.apache.org
+#  > Could not download jackson-dataformat-xml-2.11.1.jar (com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.11.1)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.11.1/jackson-dataformat-xml-2.11.1.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.11.1/jackson-dataformat-xml-2.11.1.jar'.
+#           > repo.maven.apache.org
+#  > Could not download jackson-module-jaxb-annotations-2.11.1.jar (com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.11.1)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.11.1/jackson-module-jaxb-annotations-2.11.1.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.11.1/jackson-module-jaxb-annotations-2.11.1.jar'.
+#           > repo.maven.apache.org
+#  > Could not download opencensus-contrib-grpc-metrics-0.21.0.jar (io.opencensus:opencensus-contrib-grpc-metrics:0.21.0)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/io/opencensus/opencensus-contrib-grpc-metrics/0.21.0/opencensus-contrib-grpc-metrics-0.21.0.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/io/opencensus/opencensus-contrib-grpc-metrics/0.21.0/opencensus-contrib-grpc-metrics-0.21.0.jar'.
+#           > repo.maven.apache.org
+#  > Could not download opencensus-api-0.21.0.jar (io.opencensus:opencensus-api:0.21.0)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/io/opencensus/opencensus-api/0.21.0/opencensus-api-0.21.0.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/io/opencensus/opencensus-api/0.21.0/opencensus-api-0.21.0.jar'.
+#           > Network is unreachable: no further information
+#  > Could not download netty-codec-http2-4.1.34.Final.jar (io.netty:netty-codec-http2:4.1.34.Final)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.34.Final/netty-codec-http2-4.1.34.Final.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.34.Final/netty-codec-http2-4.1.34.Final.jar'.
+#           > Network is unreachable: no further information
+#  > Could not download netty-handler-proxy-4.1.34.Final.jar (io.netty:netty-handler-proxy:4.1.34.Final)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.34.Final/netty-handler-proxy-4.1.34.Final.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.34.Final/netty-handler-proxy-4.1.34.Final.jar'.
+#           > Network is unreachable: no further information
+#  > Could not download proto-google-common-protos-1.12.0.jar (com.google.api.grpc:proto-google-common-protos:1.12.0)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-common-protos/1.12.0/proto-google-common-protos-1.12.0.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-common-protos/1.12.0/proto-google-common-protos-1.12.0.jar'.
+#           > Network is unreachable: no further information
+#  > Could not download jsoup-1.13.1.jar (org.jsoup:jsoup:1.13.1)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar'.
+#           > Network is unreachable: no further information
+#  > Could not download apksig-7.1.2.jar (com.android.tools.build:apksig:7.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/build/apksig/7.1.2/apksig-7.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/build/apksig/7.1.2/apksig-7.1.2.jar'.
+#           > dl.google.com
+#  > Could not download kotlin-stdlib-common-1.4.32.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.4.32)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.32/kotlin-stdlib-common-1.4.32.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.32/kotlin-stdlib-common-1.4.32.jar'.
+#           > Network is unreachable: no further information
+#  > Could not download grpc-context-1.21.1.jar (io.grpc:grpc-context:1.21.1)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.21.1/grpc-context-1.21.1.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.21.1/grpc-context-1.21.1.jar'.
+#           > Network is unreachable: no further information
+#  > Could not download animal-sniffer-annotations-1.17.jar (org.codehaus.mojo:animal-sniffer-annotations:1.17)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar'.
+#           > Network is unreachable: no further information
+#  > Could not download netty-codec-http-4.1.34.Final.jar (io.netty:netty-codec-http:4.1.34.Final)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.34.Final/netty-codec-http-4.1.34.Final.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.34.Final/netty-codec-http-4.1.34.Final.jar'.
+#           > Network is unreachable: no further information
+#  > Could not download netty-handler-4.1.34.Final.jar (io.netty:netty-handler:4.1.34.Final)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.34.Final/netty-handler-4.1.34.Final.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.34.Final/netty-handler-4.1.34.Final.jar'.
+#           > Network is unreachable: no further information
+#  > Failed to notify project evaluation listener.
+#  > Could not get unknown property 'android' for project ':flutter_native_splash' of type org.gradle.api.Project.
+#  > Could not get unknown property 'android' for project ':flutter_native_splash' of type org.gradle.api.Project.
+#
+#  * Try:
+#  > Run with --stacktrace option to get the stack trace.
+#  > Run with --info or --debug option to get more log output.
+#  > Run with --scan to get full insights.
+#
+#  * Get more help at https://help.gradle.org
+#
+#  BUILD FAILED in 7m 48s
+#  [!] Gradle threw an error while downloading artifacts from the network.
+#Retrying Gradle Build: #1, wait time: 100ms
+#  Running Gradle task 'assembleDebug'...
+#  * What went wrong:
+#  A problem occurred configuring project ':flutter_native_splash'.
+#  > Could not resolve all files for configuration ':flutter_native_splash:classpath'.
+#  > Could not download gradle-7.1.2.jar (com.android.tools.build:gradle:7.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle/7.1.2/gradle-7.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle/7.1.2/gradle-7.1.2.jar'.
+#           > dl.google.com
+#  > Could not download builder-7.1.2.jar (com.android.tools.build:builder:7.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/build/builder/7.1.2/builder-7.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/build/builder/7.1.2/builder-7.1.2.jar'.
+#           > dl.google.com
+#  > Could not download sdk-common-30.1.2.jar (com.android.tools:sdk-common:30.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/sdk-common/30.1.2/sdk-common-30.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/sdk-common/30.1.2/sdk-common-30.1.2.jar'.
+#           > dl.google.com
+#  > Could not download aaptcompiler-7.1.2.jar (com.android.tools.build:aaptcompiler:7.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/build/aaptcompiler/7.1.2/aaptcompiler-7.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/build/aaptcompiler/7.1.2/aaptcompiler-7.1.2.jar'.
+#           > dl.google.com
+#  > Could not download bundletool-1.8.0.jar (com.android.tools.build:bundletool:1.8.0)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/build/bundletool/1.8.0/bundletool-1.8.0.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/build/bundletool/1.8.0/bundletool-1.8.0.jar'.
+#           > No such host is known (dl.google.com)
+#  > Could not download shared-30.1.2.jar (com.android.tools.analytics-library:shared:30.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/shared/30.1.2/shared-30.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/shared/30.1.2/shared-30.1.2.jar'.
+#           > dl.google.com
+#  > Could not download databinding-compiler-common-7.1.2.jar (androidx.databinding:databinding-compiler-common:7.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-compiler-common/7.1.2/databinding-compiler-common-7.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-compiler-common/7.1.2/databinding-compiler-common-7.1.2.jar'.
+#           > dl.google.com
+#  > Could not download databinding-common-7.1.2.jar (androidx.databinding:databinding-common:7.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-common/7.1.2/databinding-common-7.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-common/7.1.2/databinding-common-7.1.2.jar'.
+#           > dl.google.com
+#  > Could not download baseLibrary-7.1.2.jar (com.android.databinding:baseLibrary:7.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/databinding/baseLibrary/7.1.2/baseLibrary-7.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/databinding/baseLibrary/7.1.2/baseLibrary-7.1.2.jar'.
+#           > dl.google.com
+#  > Could not download layoutlib-api-30.1.2.jar (com.android.tools.layoutlib:layoutlib-api:30.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/layoutlib/layoutlib-api/30.1.2/layoutlib-api-30.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/layoutlib/layoutlib-api/30.1.2/layoutlib-api-30.1.2.jar'.
+#           > dl.google.com
+#  > Could not download android-device-provider-ddmlib-proto-30.1.2.jar (com.android.tools.utp:android-device-provider-ddmlib-proto:30.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-device-provider-ddmlib-proto/30.1.2/android-device-provider-ddmlib-proto-30.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-device-provider-ddmlib-proto/30.1.2/android-device-provider-ddmlib-proto-30.1.2.jar'.
+#           > dl.google.com
+#  > Could not download android-device-provider-gradle-proto-30.1.2.jar (com.android.tools.utp:android-device-provider-gradle-proto:30.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-device-provider-gradle-proto/30.1.2/android-device-provider-gradle-proto-30.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-device-provider-gradle-proto/30.1.2/android-device-provider-gradle-proto-30.1.2.jar'.
+#           > dl.google.com
+#  > Could not download android-test-plugin-host-additional-test-output-proto-30.1.2.jar (com.android.tools.utp:android-test-plugin-host-additional-test-output-proto:30.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-test-plugin-host-additional-test-output-proto/30.1.2/android-test-plugin-host-additional-test-output-proto-30.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-test-plugin-host-additional-test-output-proto/30.1.2/android-test-plugin-host-additional-test-output-proto-30.1.2.jar'.
+#           > dl.google.com
+#  > Could not download android-test-plugin-host-coverage-proto-30.1.2.jar (com.android.tools.utp:android-test-plugin-host-coverage-proto:30.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-test-plugin-host-coverage-proto/30.1.2/android-test-plugin-host-coverage-proto-30.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-test-plugin-host-coverage-proto/30.1.2/android-test-plugin-host-coverage-proto-30.1.2.jar'.
+#           > dl.google.com
+#  > Could not download android-test-plugin-host-retention-proto-30.1.2.jar (com.android.tools.utp:android-test-plugin-host-retention-proto:30.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-test-plugin-host-retention-proto/30.1.2/android-test-plugin-host-retention-proto-30.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-test-plugin-host-retention-proto/30.1.2/android-test-plugin-host-retention-proto-30.1.2.jar'.
+#           > dl.google.com
+#  > Could not download android-test-plugin-result-listener-gradle-proto-30.1.2.jar (com.android.tools.utp:android-test-plugin-result-listener-gradle-proto:30.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-test-plugin-result-listener-gradle-proto/30.1.2/android-test-plugin-result-listener-gradle-proto-30.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/utp/android-test-plugin-result-listener-gradle-proto/30.1.2/android-test-plugin-result-listener-gradle-proto-30.1.2.jar'.
+#           > dl.google.com
+#  > Could not download dokka-core-1.4.32.jar (org.jetbrains.dokka:dokka-core:1.4.32)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/org/jetbrains/dokka/dokka-core/1.4.32/dokka-core-1.4.32.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/org/jetbrains/dokka/dokka-core/1.4.32/dokka-core-1.4.32.jar'.
+#           > No such host is known (repo.maven.apache.org)
+#  > Could not download builder-model-7.1.2.jar (com.android.tools.build:builder-model:7.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/build/builder-model/7.1.2/builder-model-7.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/build/builder-model/7.1.2/builder-model-7.1.2.jar'.
+#           > dl.google.com
+#  > Could not download dvlib-30.1.2.jar (com.android.tools:dvlib:30.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/dvlib/30.1.2/dvlib-30.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/dvlib/30.1.2/dvlib-30.1.2.jar'.
+#           > dl.google.com
+#  > Could not download common-30.1.2.jar (com.android.tools:common:30.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/common/30.1.2/common-30.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/common/30.1.2/common-30.1.2.jar'.
+#           > dl.google.com
+#  > Could not download kotlin-stdlib-jdk8-1.4.32.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.32)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.4.32/kotlin-stdlib-jdk8-1.4.32.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.4.32/kotlin-stdlib-jdk8-1.4.32.jar'.
+#           > repo.maven.apache.org
+#  > Could not download jetifier-processor-1.0.0-beta09.jar (com.android.tools.build.jetifier:jetifier-processor:1.0.0-beta09)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/build/jetifier/jetifier-processor/1.0.0-beta09/jetifier-processor-1.0.0-beta09.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/build/jetifier/jetifier-processor/1.0.0-beta09/jetifier-processor-1.0.0-beta09.jar'.
+#           > dl.google.com
+#  > Could not download apkzlib-7.1.2.jar (com.android.tools.build:apkzlib:7.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/build/apkzlib/7.1.2/apkzlib-7.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/build/apkzlib/7.1.2/apkzlib-7.1.2.jar'.
+#           > dl.google.com
+#  > Could not download bcpkix-jdk15on-1.56.jar (org.bouncycastle:bcpkix-jdk15on:1.56)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.56/bcpkix-jdk15on-1.56.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.56/bcpkix-jdk15on-1.56.jar'.
+#           > repo.maven.apache.org
+#  > Could not download jetifier-core-1.0.0-beta09.jar (com.android.tools.build.jetifier:jetifier-core:1.0.0-beta09)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/build/jetifier/jetifier-core/1.0.0-beta09/jetifier-core-1.0.0-beta09.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/build/jetifier/jetifier-core/1.0.0-beta09/jetifier-core-1.0.0-beta09.jar'.
+#           > dl.google.com
+#  > Could not download protobuf-java-util-3.10.0.jar (com.google.protobuf:protobuf-java-util:3.10.0)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java-util/3.10.0/protobuf-java-util-3.10.0.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java-util/3.10.0/protobuf-java-util-3.10.0.jar'.
+#           > repo.maven.apache.org
+#  > Could not download grpc-protobuf-1.21.1.jar (io.grpc:grpc-protobuf:1.21.1)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf/1.21.1/grpc-protobuf-1.21.1.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf/1.21.1/grpc-protobuf-1.21.1.jar'.
+#           > repo.maven.apache.org
+#  > Could not download protos-30.1.2.jar (com.android.tools.analytics-library:protos:30.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/protos/30.1.2/protos-30.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/protos/30.1.2/protos-30.1.2.jar'.
+#           > dl.google.com
+#  > Could not download protobuf-java-3.10.0.jar (com.google.protobuf:protobuf-java:3.10.0)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.10.0/protobuf-java-3.10.0.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.10.0/protobuf-java-3.10.0.jar'.
+#           > repo.maven.apache.org
+#  > Could not download grpc-netty-1.21.1.jar (io.grpc:grpc-netty:1.21.1)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/io/grpc/grpc-netty/1.21.1/grpc-netty-1.21.1.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/io/grpc/grpc-netty/1.21.1/grpc-netty-1.21.1.jar'.
+#           > repo.maven.apache.org
+#  > Could not download grpc-core-1.21.1.jar (io.grpc:grpc-core:1.21.1)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.21.1/grpc-core-1.21.1.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.21.1/grpc-core-1.21.1.jar'.
+#           > repo.maven.apache.org
+#  > Could not download grpc-stub-1.21.1.jar (io.grpc:grpc-stub:1.21.1)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.21.1/grpc-stub-1.21.1.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.21.1/grpc-stub-1.21.1.jar'.
+#           > repo.maven.apache.org
+#  > Could not download bcprov-jdk15on-1.56.jar (org.bouncycastle:bcprov-jdk15on:1.56)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.56/bcprov-jdk15on-1.56.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.56/bcprov-jdk15on-1.56.jar'.
+#           > repo.maven.apache.org
+#  > Could not download grpc-protobuf-lite-1.21.1.jar (io.grpc:grpc-protobuf-lite:1.21.1)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.21.1/grpc-protobuf-lite-1.21.1.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.21.1/grpc-protobuf-lite-1.21.1.jar'.
+#           > repo.maven.apache.org
+#  > Could not download grpc-api-1.21.1.jar (io.grpc:grpc-api:1.21.1)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.21.1/grpc-api-1.21.1.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.21.1/grpc-api-1.21.1.jar'.
+#           > repo.maven.apache.org
+#  > Could not download jackson-module-kotlin-2.11.1.jar (com.fasterxml.jackson.module:jackson-module-kotlin:2.11.1)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-kotlin/2.11.1/jackson-module-kotlin-2.11.1.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-kotlin/2.11.1/jackson-module-kotlin-2.11.1.jar'.
+#           > repo.maven.apache.org
+#  > Could not download kotlin-reflect-1.4.32.jar (org.jetbrains.kotlin:kotlin-reflect:1.4.32)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.4.32/kotlin-reflect-1.4.32.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.4.32/kotlin-reflect-1.4.32.jar'.
+#           > repo.maven.apache.org
+#  > Could not download httpcore-4.4.10.jar (org.apache.httpcomponents:httpcore:4.4.10)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar'.
+#           > repo.maven.apache.org
+#  > Could not download signflinger-7.1.2.jar (com.android:signflinger:7.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/signflinger/7.1.2/signflinger-7.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/signflinger/7.1.2/signflinger-7.1.2.jar'.
+#           > dl.google.com
+#  > Could not download zipflinger-7.1.2.jar (com.android:zipflinger:7.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/zipflinger/7.1.2/zipflinger-7.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/zipflinger/7.1.2/zipflinger-7.1.2.jar'.
+#           > dl.google.com
+#  > Could not download annotations-30.1.2.jar (com.android.tools:annotations:30.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/annotations/30.1.2/annotations-30.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/annotations/30.1.2/annotations-30.1.2.jar'.
+#           > dl.google.com
+#  > Could not download antlr4-4.5.3.jar (org.antlr:antlr4:4.5.3)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/org/antlr/antlr4/4.5.3/antlr4-4.5.3.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/org/antlr/antlr4/4.5.3/antlr4-4.5.3.jar'.
+#           > repo.maven.apache.org
+#  > Could not download kotlin-stdlib-jdk7-1.4.32.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.32)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.4.32/kotlin-stdlib-jdk7-1.4.32.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.4.32/kotlin-stdlib-jdk7-1.4.32.jar'.
+#           > repo.maven.apache.org
+#  > Could not download kotlinx-coroutines-core-jvm-1.4.1.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.4.1)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.4.1/kotlinx-coroutines-core-jvm-1.4.1.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.4.1/kotlinx-coroutines-core-jvm-1.4.1.jar'.
+#           > repo.maven.apache.org
+#  > Could not download markdown-jvm-0.2.1.jar (org.jetbrains:markdown-jvm:0.2.1)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/org/jetbrains/markdown-jvm/0.2.1/markdown-jvm-0.2.1.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/org/jetbrains/markdown-jvm/0.2.1/markdown-jvm-0.2.1.jar'.
+#           > repo.maven.apache.org
+#  > Could not download kotlin-stdlib-1.4.32.jar (org.jetbrains.kotlin:kotlin-stdlib:1.4.32)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.4.32/kotlin-stdlib-1.4.32.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.4.32/kotlin-stdlib-1.4.32.jar'.
+#           > repo.maven.apache.org
+#  > Could not download jackson-dataformat-xml-2.11.1.jar (com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.11.1)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.11.1/jackson-dataformat-xml-2.11.1.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.11.1/jackson-dataformat-xml-2.11.1.jar'.
+#           > repo.maven.apache.org
+#  > Could not download jackson-module-jaxb-annotations-2.11.1.jar (com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.11.1)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.11.1/jackson-module-jaxb-annotations-2.11.1.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.11.1/jackson-module-jaxb-annotations-2.11.1.jar'.
+#           > repo.maven.apache.org
+#  > Could not download opencensus-contrib-grpc-metrics-0.21.0.jar (io.opencensus:opencensus-contrib-grpc-metrics:0.21.0)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/io/opencensus/opencensus-contrib-grpc-metrics/0.21.0/opencensus-contrib-grpc-metrics-0.21.0.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/io/opencensus/opencensus-contrib-grpc-metrics/0.21.0/opencensus-contrib-grpc-metrics-0.21.0.jar'.
+#           > repo.maven.apache.org
+#  > Could not download opencensus-api-0.21.0.jar (io.opencensus:opencensus-api:0.21.0)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/io/opencensus/opencensus-api/0.21.0/opencensus-api-0.21.0.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/io/opencensus/opencensus-api/0.21.0/opencensus-api-0.21.0.jar'.
+#           > Network is unreachable: no further information
+#  > Could not download netty-codec-http2-4.1.34.Final.jar (io.netty:netty-codec-http2:4.1.34.Final)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.34.Final/netty-codec-http2-4.1.34.Final.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.34.Final/netty-codec-http2-4.1.34.Final.jar'.
+#           > Network is unreachable: no further information
+#  > Could not download netty-handler-proxy-4.1.34.Final.jar (io.netty:netty-handler-proxy:4.1.34.Final)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.34.Final/netty-handler-proxy-4.1.34.Final.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.34.Final/netty-handler-proxy-4.1.34.Final.jar'.
+#           > Network is unreachable: no further information
+#  > Could not download proto-google-common-protos-1.12.0.jar (com.google.api.grpc:proto-google-common-protos:1.12.0)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-common-protos/1.12.0/proto-google-common-protos-1.12.0.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-common-protos/1.12.0/proto-google-common-protos-1.12.0.jar'.
+#           > Network is unreachable: no further information
+#  > Could not download jsoup-1.13.1.jar (org.jsoup:jsoup:1.13.1)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar'.
+#           > Network is unreachable: no further information
+#  > Could not download apksig-7.1.2.jar (com.android.tools.build:apksig:7.1.2)
+#     > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/build/apksig/7.1.2/apksig-7.1.2.jar'.
+#        > Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/build/apksig/7.1.2/apksig-7.1.2.jar'.
+#           > dl.google.com
+#  > Could not download kotlin-stdlib-common-1.4.32.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.4.32)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.32/kotlin-stdlib-common-1.4.32.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.32/kotlin-stdlib-common-1.4.32.jar'.
+#           > Network is unreachable: no further information
+#  > Could not download grpc-context-1.21.1.jar (io.grpc:grpc-context:1.21.1)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.21.1/grpc-context-1.21.1.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.21.1/grpc-context-1.21.1.jar'.
+#           > Network is unreachable: no further information
+#  > Could not download animal-sniffer-annotations-1.17.jar (org.codehaus.mojo:animal-sniffer-annotations:1.17)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar'.
+#           > Network is unreachable: no further information
+#  > Could not download netty-codec-http-4.1.34.Final.jar (io.netty:netty-codec-http:4.1.34.Final)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.34.Final/netty-codec-http-4.1.34.Final.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.34.Final/netty-codec-http-4.1.34.Final.jar'.
+#           > Network is unreachable: no further information
+#  > Could not download netty-handler-4.1.34.Final.jar (io.netty:netty-handler:4.1.34.Final)
+#     > Could not get resource 'https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.34.Final/netty-handler-4.1.34.Final.jar'.
+#        > Could not GET 'https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.34.Final/netty-handler-4.1.34.Final.jar'.
+#           > Network is unreachable: no further information
+#  > Failed to notify project evaluation listener.
+#  > Could not get unknown property 'android' for project ':flutter_native_splash' of type org.gradle.api.Project.
+#  > Could not get unknown property 'android' for project ':flutter_native_splash' of type org.gradle.api.Project.
+#
+#  * Try:
+#  > Run with --stacktrace option to get the stack trace.
+#  > Run with --info or --debug option to get more log output.
+#  > Run with --scan to get full insights.
+#
+#  * Get more help at https://help.gradle.org
+#
+#  BUILD FAILED in 7m 48s
+#  [!] Gradle threw an error while downloading artifacts from the network.
+#Retrying Gradle Build: #1, wait time: 100ms
+#  Running Gradle task 'assembleDebug'...
+

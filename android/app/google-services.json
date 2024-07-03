@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "108879998314",
+    "project_id": "rhythmiq-sahana",
+    "storage_bucket": "rhythmiq-sahana.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108879998314:android:04d2ca1ceed72152748913",
+        "android_client_info": {
+          "package_name": "com.example.soul_tunes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108879998314-pqngor4jaasu9oba3ei3bc969p0j3esn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.soul_tunes",
+            "certificate_hash": "bb727f6245cb0c963478d8180bcf8838b631c4df"
+          }
+        },
+        {
+          "client_id": "108879998314-ivpvdk5nlnduc5lohnmrhvups8ggav27.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4WoMJziG-cmNq6DAdHpRSBfB5mgnxU98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108879998314-ivpvdk5nlnduc5lohnmrhvups8ggav27.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

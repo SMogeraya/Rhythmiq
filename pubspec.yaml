@@ -1,0 +1,53 @@
+name: soul_tunes
+description: "A new Flutter project."
+
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.5 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  #utility packages
+  http: ^1.2.0
+  intl: ^0.19.0
+  logger: ^2.0.1
+  url_launcher: ^6.1.12
+  carousel_slider: ^4.2.1
+  lottie: ^2.7.0
+  connectivity_plus: ^5.0.1 #to ensure internet connectivity
+  shimmer: ^3.0.0
+  #icons
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.25.4
+  cloud_firestore: ^4.15.5
+  firebase_auth: ^4.17.4
+  firebase_analytics: ^10.8.6
+  # State-Management
+  get: ^4.6.5
+  get_storage: ^2.1.1 #localstorage
+  smooth_page_indicator: ^1.1.0
+  flutter_native_splash: ^2.3.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/users/
+    - assets/logos/
+    - assets/images/on_boarding_images/
+    - assets/images/service_providers/
+    - assets/images/animations/
+    - assets/images/scroll/
+    - assets/images/banners/
+    - assets/images/products/
+    - assets/icons/payment_methods/
