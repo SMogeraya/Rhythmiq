@@ -42,11 +42,12 @@ Beyond its role as a mere marketplace, Rhythmiq fosters a sense of community amo
 2. Navigate to the directory where you want to clone the project.
 3. Run the following command:
     ```bash
-    git clone https://github.com/YourUsername/YourRepositoryName.git
+     https://github.com/YourUsername/YourRepositoryName.git
+    git clone https://github.com/SMogeraya/Rhythmiq.git
     ```
 4. Navigate into your project’s directory:
     ```bash
-    cd YourRepositoryName
+    cd Rhythmiq
     ```
 
 ### Installing Dependencies
@@ -80,18 +81,3 @@ Beyond its role as a mere marketplace, Rhythmiq fosters a sense of community amo
     ```
 6. Create a pull request.
 
-
-
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
